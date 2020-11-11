@@ -6,6 +6,8 @@ import Events from "./component/INTRO/Events";
 import CoditionalRendering from "./component/INTRO/CoditionalRendering";
 // import HOC from "./component/INTRO/HOC";
 import RenderProps1 from "./component/INTRO/RenderProps1";
+import ComponentC from "./component/INTRO/ComponentC";
+import { UserProvider } from "./component/INTRO/userContext";
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
       <RenderProps1
         render={(isLoggedIn) => (isLoggedIn ? "NIkita" : "Guest")}
       />
+      <UserProvider value="Nikita Singh">
+        <ComponentC />
+      </UserProvider>
     </div>
   );
 }
