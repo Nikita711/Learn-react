@@ -8,6 +8,7 @@ import CoditionalRendering from "./component/INTRO/CoditionalRendering";
 import RenderProps1 from "./component/INTRO/RenderProps1";
 import ComponentC from "./component/INTRO/ComponentC";
 import { UserProvider } from "./component/INTRO/userContext";
+import PostList from "./component/HTTP/PostList";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <UserProvider value="Nikita Singh">
         <ComponentC />
       </UserProvider>
+      <PostList/>
     </div>
   );
 }
