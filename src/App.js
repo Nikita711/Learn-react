@@ -9,6 +9,7 @@ import RenderProps1 from "./component/INTRO/RenderProps1";
 import ComponentC from "./component/INTRO/ComponentC";
 import { UserProvider } from "./component/INTRO/userContext";
 import PostList from "./component/HTTP/PostList";
+import PostForm from "./component/HTTP/PostForm";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       <UserProvider value="Nikita Singh">
         <ComponentC />
       </UserProvider>
-      <PostList/>
+      {/* <PostList/> */}
+      <PostForm />
     </div>
   );
 }
