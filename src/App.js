@@ -12,6 +12,7 @@ import { UserProvider } from "./component/INTRO/userContext";
 import PostForm from "./component/HTTP/PostForm";
 // import ClassCounter from "./component/HOOKS/ClassCounter";
 import HooksCounter from "./component/HOOKS/HooksCounter";
+import HooksCounterTwo from "./component/HOOKS/HooksCounterTwo";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <PostList/> */}
       <PostForm />
       {/* <ClassCounter /> */}
-      <HooksCounter />
+      {/* <HooksCounter /> */}
+      <HooksCounterTwo />
     </div>
   );
 }
