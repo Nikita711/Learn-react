@@ -1,0 +1,6 @@
+Hooks are the new feature added in react version 16.8 which allows you to use React featues without having 
+to write a class .
+
+//things to remember 
+=> Hooks doesn't work inside classes(they let you use react without classes)
+
