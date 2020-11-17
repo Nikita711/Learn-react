@@ -8,8 +8,10 @@ import CoditionalRendering from "./component/INTRO/CoditionalRendering";
 import RenderProps1 from "./component/INTRO/RenderProps1";
 import ComponentC from "./component/INTRO/ComponentC";
 import { UserProvider } from "./component/INTRO/userContext";
-import PostList from "./component/HTTP/PostList";
+// import PostList from "./component/HTTP/PostList";
 import PostForm from "./component/HTTP/PostForm";
+// import ClassCounter from "./component/HOOKS/ClassCounter";
+import HooksCounter from "./component/HOOKS/HooksCounter";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       </UserProvider>
       {/* <PostList/> */}
       <PostForm />
+      {/* <ClassCounter /> */}
+      <HooksCounter />
     </div>
   );
 }
